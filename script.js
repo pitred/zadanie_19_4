@@ -14,7 +14,7 @@ console.log(average(1, 3, 5, 4));
 
 // zadanie 4
 const grades = [1, 5, 5, 5, 4, 3, 3, 2, 1];
-console.log(average(...grades));
+console.log(average(...grades).toFixed(2));
 
 // zadanie 5
 const data = [1, 4, 'Iwona', false, 'Nowak'];
